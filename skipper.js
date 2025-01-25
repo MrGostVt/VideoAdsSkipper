@@ -80,7 +80,7 @@
         }
     }
 
-    if((window.location.href).split('youtube').length < 2){
+    if((window.location.href).split('here link to website where you want to enable autoskip').length >= 2){
         const config = { childList: true, subtree: true };
         const observer = new MutationObserver(mutationCallback);
         observer.observe(document.body, config);
